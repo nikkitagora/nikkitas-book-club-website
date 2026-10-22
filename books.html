@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Club - Books</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a> | </a>
+            <a href="books.html" class="active">Books</a>
+            <a> | </a>
+            <a href="about_me.html">About Me</a>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <header class="page-header">
+            <h1>📚 Our Reading Log</h1>
+            <p class="subtitle">Explore the books I've read and my official verdicts.</p>
+        </header>
+
+        <!-- CSS Grid Container for Book Cards -->
+        <section class="book-grid">
+
+            <!-- Book Card 1 -->
+            <article class="book-card">
+                <img src="images/gwtdt.jpg" alt="Girl with the Dragon Tattoo Cover" class="book-cover">
+                <div class="book-info">
+                    <span class="genre-tag">Classic</span>
+                    <h3>Girl with the Dragon Tattoo</h3>
+                    <p class="author">by Stieg Larsson</p>
+                    <p class="rating">⭐5/5</p>
+                    <a href="./reviews/gwtdt_review.html" class="read-btn">Read Full Review →</a>
+                </div>
+            </article>
+
+            <!-- Book Card 5 -->
+            <article class="book-card">
+                <img src="images/murder-on-the-orient-express.jpg" alt="Murder on the Orient Express Cover" class="book-cover">
+                <div class="book-info">
+                    <span class="genre-tag">Classic</span>
+                    <h3>Murder on the Orient Express</h3>
+                    <p class="author">by Agatha Christie</p>
+                    <p class="rating">⭐3.5/5</p>
+                    <a href="./reviews/review_template.html" class="read-btn">Read Full Review →</a>
+                </div>
+            </article>
+
+            <!-- More book cards will be added below as you read them -->
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nikkita's Book Club. Built from scratch.</p>
+    </footer>
+
+</body>
+</html>
